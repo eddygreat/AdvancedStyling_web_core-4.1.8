@@ -1,0 +1,157 @@
+.full-page{
+   width: 100dvw;
+   height: 1024px;
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+}
+
+.fixed-box{
+   display: flex;
+   flex-direction: column;
+   top: 0px;
+   left: 0px;
+   width: 320px;
+   height: 1024px;
+   position: fixed;
+   padding: 23px 24px 24px 0px;
+   background-color: #ffffff;
+   /*transform: rotate(180deg);*/
+   box-shadow: 16px 0px 52px #0e175033, -2px 0px 4px #454e7e05;
+   overflow-y: auto;
+
+}
+
+.contents{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.contents-item{
+   font-family: "Roboto-Medium", Helvetica;
+   font-weight: 500;
+   color: #1b1c21;
+   font-size: 16px;
+   letter-spacing: -0.2px;
+   line-height: 24px;
+   white-space: nowrap;
+   margin-bottom: 32px;
+}
+
+.menu{
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+}
+
+.menu-icon{
+   width: 40px;
+   height: 40px;
+}
+
+.menu-icon.group, .group{
+   height: 57px;
+   width: 97px;   
+}
+
+
+.equipment-holder{
+   display: flex;
+   font-family: "Roboto-Medium", Helvetica;
+   font-weight: 500;
+   color: #7d7e82;
+   font-size: 16px;
+   letter-spacing: -0.2px;
+   line-height: 24px;
+   white-space: nowrap;
+   margin-top: 40.27px;
+   margin-bottom: 32px;
+}
+
+.equipment-repair{
+   padding-left: 19px;
+   padding-top: 10px;
+   width: 124px;
+}
+
+.footer-icons{
+   display: flex;
+}
+
+.footer-icon__profile, .footer-icon__call, .footer-icon__chat, .footer-icon{
+   width: 40px;
+   height: 40px;
+}
+
+.footer-text{
+   display: flex;
+   flex-direction: column;
+}
+
+.email{
+   font-family: "Roboto-Medium", Helvetica;
+   font-weight: 500;
+   color: #1b1c21;
+   font-size: 16px;
+   letter-spacing: -0.2px;
+   line-height: 24px;
+   white-space: nowrap;
+   width: 105px;
+   margin-bottom: 12px;
+   
+}
+
+.phone-number{
+   font-family: "Roboto-Bold", Helvetica;
+   font-weight: 700;
+   color: #1b1c21;
+   font-size: 24px;
+   letter-spacing: -0.6px;
+   line-height: 32px;
+   white-space: nowrap;
+   width: 162px;
+   height: 32px;
+   margin-bottom: 40px;
+}
+
+.change-language{
+   display: flex;
+   width: 162px;
+   height: 24px;
+}
+
+.language-option{
+   font-family: "Roboto-Medium", Helvetica;
+   font-weight: 500;
+   color: #7d7e82;
+   font-size: 16px;
+   letter-spacing: -0.2px;
+   line-height: 24px;
+   width: 21px;
+   white-space: nowrap;
+}
+
+.language-option:hover{
+   color: #090c49;
+   font-weight: 700;
+   filter: contrast(80);
+
+}
+
+.change-language__holver-2{
+   margin: 0px 11px 0px 11px;
+}
+
+.chat{
+   margin: 0px 16px 0px 16px;
+}
+
+.footer-icons{
+   margin-bottom: 16px;
+   margin-top: 268px;
+}
+
+.footer, .header, .contents{
+   margin-left: 24px;
+}
