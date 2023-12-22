@@ -1,5 +1,5 @@
 .full-page{
-   width: 100dvw;
+   width: 768px;
    height: 1024px;
    background-color: #ffffff;
    display: flex;
@@ -14,12 +14,11 @@
    width: 320px;
    height: 1024px;
    position: fixed;
-   padding: 23px 24px 24px 0px;
+   padding: 23px 24px 0px 0px;
    background-color: #ffffff;
    /*transform: rotate(180deg);*/
    box-shadow: 16px 0px 52px #0e175033, -2px 0px 4px #454e7e05;
-   overflow-y: auto;
-
+ 
 }
 
 .contents{
@@ -75,9 +74,6 @@
    width: 124px;
 }
 
-.footer-icons{
-   display: flex;
-}
 
 .footer-icon__profile, .footer-icon__call, .footer-icon__chat, .footer-icon{
    width: 40px;
@@ -148,8 +144,9 @@
 }
 
 .footer-icons{
+   display: flex;
    margin-bottom: 16px;
-   margin-top: 268px;
+   margin-top: 200px;
 }
 
 .footer, .header, .contents{
