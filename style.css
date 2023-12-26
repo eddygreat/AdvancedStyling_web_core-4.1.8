@@ -4,16 +4,28 @@
    background-color: #ffffff;
    display: flex;
    flex-direction: column;
+   overflow-y: scroll;
+   position: relative;
+   bottom: 0;
+   top: 0;
+      
+}
+
+html {
+   height: 100dvh;
+   overflow: scroll;
+   
 }
 
 .fixed-box{
    display: flex;
    flex-direction: column;
-   top: 0px;
+   top: 0;
+   bottom: 0;
    left: 0px;
    width: 320px;
    height: 1024px;
-   position: fixed;
+   position: relative;
    padding: 23px 24px 0px 0px;
    background-color: #ffffff;
    /*transform: rotate(180deg);*/
